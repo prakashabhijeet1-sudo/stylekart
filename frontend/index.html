@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>StyleKart - Online Shopping</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-    <div class="logo">StyleKart</div>
+
+    <div class="logo">
+        StyleKart
+    </div>
 
     <nav>
         <a href="index.html">Home</a>
@@ -21,23 +27,35 @@
     </nav>
 
     <div class="search">
-        <input type="text" placeholder="Search for products, brands and more">
+
+        <input
+            type="text"
+            placeholder="Search for products, brands and more"
+        >
+
         <button>🔍</button>
+
     </div>
 
     <div class="header-icons">
+
         <a href="login.html">👤</a>
+
         <a href="#">❤️</a>
+
         <a href="cart.html">🛒</a>
+
     </div>
+
 </header>
 
 
-<!-- Hero Section -->
+<!-- HERO SECTION -->
 
 <section class="hero">
 
     <div class="hero-content">
+
         <p>BIG FASHION SALE</p>
 
         <h1>UP TO 70% OFF</h1>
@@ -47,12 +65,13 @@
         <button onclick="window.location.href='products.html'">
             SHOP NOW
         </button>
+
     </div>
 
 </section>
 
 
-<!-- Categories -->
+<!-- CATEGORY SECTION -->
 
 <section class="section">
 
@@ -61,28 +80,57 @@
     <div class="categories">
 
         <div class="category">
-            <div class="category-image">👕</div>
+
+            <div class="category-image">
+                👕
+            </div>
+
             <h3>Men</h3>
+
         </div>
 
+
         <div class="category">
-            <div class="category-image">👗</div>
+
+            <div class="category-image">
+                👗
+            </div>
+
             <h3>Women</h3>
+
         </div>
 
+
         <div class="category">
-            <div class="category-image">👶</div>
+
+            <div class="category-image">
+                👶
+            </div>
+
             <h3>Kids</h3>
+
         </div>
 
+
         <div class="category">
-            <div class="category-image">👟</div>
+
+            <div class="category-image">
+                👟
+            </div>
+
             <h3>Footwear</h3>
+
         </div>
 
+
         <div class="category">
-            <div class="category-image">💄</div>
+
+            <div class="category-image">
+                💄
+            </div>
+
             <h3>Beauty</h3>
+
         </div>
 
     </div>
@@ -90,7 +138,7 @@
 </section>
 
 
-<!-- Trending Products -->
+<!-- TRENDING PRODUCTS -->
 
 <section class="section">
 
@@ -98,84 +146,150 @@
 
     <div class="products">
 
+
+        <!-- PRODUCT 1 -->
+
         <div class="product-card">
 
-            <div class="product-image">👕</div>
+            <div class="product-image">
+                👕
+            </div>
 
             <h3>Premium T-Shirt</h3>
 
-            <p class="brand">Roadster</p>
-
-            <p>
-                <span class="price">₹599</span>
-                <span class="old-price">₹999</span>
-                <span class="discount">40% OFF</span>
+            <p class="brand">
+                Roadster
             </p>
 
-            <button onclick="addToCart('Premium T-Shirt',599)">
+            <p>
+
+                <span class="price">
+                    ₹599
+                </span>
+
+                <span class="old-price">
+                    ₹999
+                </span>
+
+                <span class="discount">
+                    40% OFF
+                </span>
+
+            </p>
+
+            <button onclick="addToCart('Premium T-Shirt', 599)">
                 Add to Cart
             </button>
 
         </div>
 
 
+        <!-- PRODUCT 2 -->
+
         <div class="product-card">
 
-            <div class="product-image">👗</div>
+            <div class="product-image">
+                👗
+            </div>
 
             <h3>Women Summer Dress</h3>
 
-            <p class="brand">DressBerry</p>
-
-            <p>
-                <span class="price">₹899</span>
-                <span class="old-price">₹1499</span>
-                <span class="discount">40% OFF</span>
+            <p class="brand">
+                DressBerry
             </p>
 
-            <button onclick="addToCart('Women Summer Dress',899)">
+            <p>
+
+                <span class="price">
+                    ₹899
+                </span>
+
+                <span class="old-price">
+                    ₹1499
+                </span>
+
+                <span class="discount">
+                    40% OFF
+                </span>
+
+            </p>
+
+            <button onclick="addToCart('Women Summer Dress', 899)">
                 Add to Cart
             </button>
 
         </div>
 
 
+        <!-- PRODUCT 3 -->
+
         <div class="product-card">
 
-            <div class="product-image">👟</div>
+            <div class="product-image">
+                👟
+            </div>
 
             <h3>Running Shoes</h3>
 
-            <p class="brand">Nike</p>
-
-            <p>
-                <span class="price">₹2499</span>
-                <span class="old-price">₹3999</span>
-                <span class="discount">38% OFF</span>
+            <p class="brand">
+                Nike
             </p>
 
-            <button onclick="addToCart('Running Shoes',2499)">
+            <p>
+
+                <span class="price">
+                    ₹2499
+                </span>
+
+                <span class="old-price">
+                    ₹3999
+                </span>
+
+                <span class="discount">
+                    38% OFF
+                </span>
+
+            </p>
+
+            <button onclick="addToCart('Running Shoes', 2499)">
                 Add to Cart
             </button>
 
         </div>
 
 
+        <!-- PRODUCT 4 -->
+
         <div class="product-card">
 
-            <div class="product-image">👜</div>
+            <div class="product-image">
+                👜
+            </div>
 
             <h3>Women's Handbag</h3>
 
-            <p class="brand">Lavie</p>
-
-            <p>
-                <span class="price">₹1299</span>
-                <span class="old-price">₹1999</span>
-                <span class="discount">35% OFF</span>
+            <p class="brand">
+                Lavie
             </p>
 
-            <button onclick="addToCart('Women's Handbag',1299)">
+            <p>
+
+                <span class="price">
+                    ₹1299
+                </span>
+
+                <span class="old-price">
+                    ₹1999
+                </span>
+
+                <span class="discount">
+                    35% OFF
+                </span>
+
+            </p>
+
+            <!-- FIXED -->
+            <button onclick='addToCart("Women Handbag", 1299)'>
                 Add to Cart
             </button>
 
@@ -186,13 +300,17 @@
 </section>
 
 
-<!-- Offers -->
+<!-- SPECIAL OFFER -->
 
 <section class="offer">
 
-    <h2>Special Offer</h2>
+    <h2>
+        Special Offer
+    </h2>
 
-    <p>Get extra 20% OFF on your first order</p>
+    <p>
+        Get extra 20% OFF on your first order
+    </p>
 
     <button onclick="window.location.href='products.html'">
         Explore Deals
@@ -201,32 +319,69 @@
 </section>
 
 
-<!-- Footer -->
+<!-- FOOTER -->
 
 <footer>
 
     <div>
-        <h3>StyleKart</h3>
-        <p>Your favourite online fashion store.</p>
+
+        <h3>
+            StyleKart
+        </h3>
+
+        <p>
+            Your favourite online fashion store.
+        </p>
+
     </div>
 
-    <div>
-        <h3>Quick Links</h3>
-        <p>About Us</p>
-        <p>Contact Us</p>
-        <p>Privacy Policy</p>
-    </div>
 
     <div>
-        <h3>Customer Service</h3>
-        <p>Help Center</p>
-        <p>Returns</p>
-        <p>Shipping</p>
+
+        <h3>
+            Quick Links
+        </h3>
+
+        <p>
+            About Us
+        </p>
+
+        <p>
+            Contact Us
+        </p>
+
+        <p>
+            Privacy Policy
+        </p>
+
+    </div>
+
+
+    <div>
+
+        <h3>
+            Customer Service
+        </h3>
+
+        <p>
+            Help Center
+        </p>
+
+        <p>
+            Returns
+        </p>
+
+        <p>
+            Shipping
+        </p>
+
     </div>
 
 </footer>
 
+
 <script src="js/script.js"></script>
 
 </body>
+
 </html>
